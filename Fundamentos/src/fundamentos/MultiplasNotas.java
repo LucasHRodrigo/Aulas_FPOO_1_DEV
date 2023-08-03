@@ -5,7 +5,7 @@ package fundamentos;
 
 public class MultiplasNotas {
     public static void main(String[] args) {
-        int rs = somar(4, 8, 10, 7, 12);
+        int rs = somar(8, 9, 6, 10, 9);
         System.out.println("A soma e: " + rs);
     }
     
