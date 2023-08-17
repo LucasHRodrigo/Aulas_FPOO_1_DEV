@@ -4,10 +4,7 @@
  */
 package enumeracao;
 
-/**
- *
- * @author Aluno
- */
+
 public class Pedido {
     private String descricao;
     private double valor;
@@ -21,11 +18,7 @@ public class Pedido {
 
     public void setStatus(String status) {
         this.status = status;
-    }
-
-    
-    
-    
+    }  
     @Override
     public String toString() {
         return "Pedido{" + "descricao=" + descricao + ", valor=" + valor + ", status=" + status + '}';
