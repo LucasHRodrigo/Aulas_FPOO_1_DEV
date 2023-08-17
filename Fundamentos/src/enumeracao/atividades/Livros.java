@@ -9,5 +9,7 @@ package enumeracao.atividades;
  * @author Aluno
  */
 public class Livros {
-    
+    public enum enumLivro {
+        TERROR, AVENTURA, SUSPENSE, ROMANCE, BIOGRAFIA, DRAMA, FANTASIA, FICCAO_CIENTIFICA
+    }
 }

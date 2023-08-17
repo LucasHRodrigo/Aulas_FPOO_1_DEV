@@ -9,5 +9,7 @@ package enumeracao.atividades;
  * @author Aluno
  */
 public class Meses {
-    
+    public enum enumMeses {
+        JANEIRO, FEVEREIRO, MARÇO, ABRIL, MAIO, JUNHO, JULHO, AGOSTO, SETEMBRO, OUTUBRO, NOVEMBRO, DEZEMBRO
+    }
 }

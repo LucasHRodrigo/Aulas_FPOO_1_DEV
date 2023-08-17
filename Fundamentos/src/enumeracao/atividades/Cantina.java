@@ -9,5 +9,7 @@ package enumeracao.atividades;
  * @author Aluno
  */
 public class Cantina {
-    
+    public enum enumCantina {
+        SALGADOS, LANCHES, SOBREMESA, BEBIDAS, ACOMPANHAMENTOS, OPCOES_VEGANAS, PASTEIS, BOLOS
+    }
 }
