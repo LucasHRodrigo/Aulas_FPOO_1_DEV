@@ -18,6 +18,14 @@ public class Pedido {
         this.valor = valor;
         this.status = status;
     }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    
+    
+    
     @Override
     public String toString() {
         return "Pedido{" + "descricao=" + descricao + ", valor=" + valor + ", status=" + status + '}';
