@@ -13,7 +13,22 @@ public class Carro {
     private String marca;
     private String cor;
     private int ano;
-    private int qtdeRodas;
     private int qtdePortas;
     private String placa;
+
+    public Carro(String modelo, String marca, String cor, int ano, int qtdePortas, String placa) {
+        this.modelo = modelo;
+        this.marca = marca;
+        this.cor = cor;
+        this.ano = ano;
+        this.qtdePortas = qtdePortas;
+        this.placa = placa;
+    }
+
+    @Override
+    public String toString() {
+        return "Carro{" + "modelo=" + modelo + ", marca=" + marca + ", cor=" + cor + ", ano=" + ano + ", qtdePortas=" + qtdePortas + ", placa=" + placa + '}';
+    }
+    
+    
 }
