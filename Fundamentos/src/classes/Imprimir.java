@@ -19,6 +19,13 @@ public class Imprimir {
         System.out.println("...............................................................................................................................................................................................................................");
         System.out.println(carro);
         System.out.println(carro2);
+        
+        carro.trocarDeMarcha(MarchaEnum.PRIMEIRA);
+        carro.trocarDeMarcha(MarchaEnum.SEGUNDA);
+        carro2.trocarDeMarcha(MarchaEnum.PRIMEIRA);
+        carro2.trocarDeMarcha(MarchaEnum.SEGUNDA);
+        carro2.trocarDeMarcha(MarchaEnum.TERCEIRA);
+        
         System.out.println("");
         System.out.println(aluno);
         System.out.println(aluno2);
