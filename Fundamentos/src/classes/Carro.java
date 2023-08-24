@@ -15,18 +15,24 @@ public class Carro {
     private int ano;
     private int qtdePortas;
     private String placa;
+    private MarchaEnum marcha;
 
-    public Carro(String modelo, String marca, CorEnum cor, int ano, int qtdePortas, String placa) {
+    public Carro(String modelo, String marca, CorEnum cor, int ano, int qtdePortas, String placa, MarchaEnum marcha) {
         this.modelo = modelo;
         this.marca = marca;
         this.cor = cor;
         this.ano = ano;
         this.qtdePortas = qtdePortas;
         this.placa = placa;
+        this.marcha = marcha;
     }
 
     @Override
     public String toString() {
-        return "Carro{" + "modelo=" + modelo + ", marca=" + marca + ", cor=" + cor + ", ano=" + ano + ", qtdePortas=" + qtdePortas + ", placa=" + placa + '}';
+        return "Carro{" + "modelo=" + modelo + ", marca=" + marca + ", cor=" + cor + ", ano=" + ano + ", qtdePortas=" + qtdePortas + ", placa=" + placa + ", marcha=" + marcha + '}';
     }
+
+   
+
+    
 }
