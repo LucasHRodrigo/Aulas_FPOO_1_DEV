@@ -12,17 +12,21 @@ public class Curso {
     private String nome;
     private String descricao;
     private CategoriaEnum categoria;
+    private String duracao;
 
     public Curso(String nome, String descricao, CategoriaEnum categoria) {
         this.nome = nome;
         this.descricao = descricao;
         this.categoria = categoria;
+        this.duracao = duracao;
     }
 
     @Override
     public String toString() {
-        return "Curso{" + "nome=" + nome + ", descricao=" + descricao + ", categoria=" + categoria + '}';
+        return "Curso{" + "nome=" + nome + ", descricao=" + descricao + ", categoria=" + categoria + ", duracao=" + duracao + '}';
     }
+
+    
     
     
 }

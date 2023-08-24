@@ -11,13 +11,13 @@ package atividadeClasses;
 public class Imprimir {
 
     public static void main(String[] args) {
-        Sala sala1 = new Sala(32, 32, 2, true, 2);
-        Sala sala2 = new Sala(21, 25, 5, true, 25);
-        Sala sala3 = new Sala(15, 15, 3, false, 0);
+        Sala sala1 = new Sala(32, 32, 2, true, 2, false, true);
+        Sala sala2 = new Sala(21, 25, 5, true, 25, true, true);
+        Sala sala3 = new Sala(15, 15, 3, false, 0, true, false);
 
-        Computador computador1 = new Computador(RAMEnum.TRINTA_E_DOIS_GB, ProcessadorEnum.Ryzen_7, 1024, "Windows");
-        Computador computador2 = new Computador(RAMEnum.DEZESSEIS_GB, ProcessadorEnum.Ryzen_3, 512, "Windows");
-        Computador computador3 = new Computador(RAMEnum.DEZESSEIS_GB, ProcessadorEnum.I9, 1024, "Windows");
+        Computador computador1 = new Computador(RAMEnum.TRINTA_E_DOIS_GB, ProcessadorEnum.Ryzen_7, 1024, "Windows", true, "700w");
+        Computador computador2 = new Computador(RAMEnum.DEZESSEIS_GB, ProcessadorEnum.Ryzen_3, 512, "Windows", false, "500w");
+        Computador computador3 = new Computador(RAMEnum.DEZESSEIS_GB, ProcessadorEnum.I9, 1024, "Windows", true, "600w");
 
         Curso curso1 = new Curso("Desenho Tecnico", "Curso de especializacao em Desenhos Tecnicos", CategoriaEnum.DESENHO);
         Curso curso2 = new Curso("Programacao em C++", "Curso gratuito de C++, do nivel basico ao nivel avancado", CategoriaEnum.PROGRAMACAO);
