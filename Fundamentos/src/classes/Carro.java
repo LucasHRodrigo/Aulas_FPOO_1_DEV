@@ -11,12 +11,12 @@ package classes;
 public class Carro {
     private String modelo;
     private String marca;
-    private String cor;
+    private CorEnum cor;
     private int ano;
     private int qtdePortas;
     private String placa;
 
-    public Carro(String modelo, String marca, String cor, int ano, int qtdePortas, String placa) {
+    public Carro(String modelo, String marca, CorEnum cor, int ano, int qtdePortas, String placa) {
         this.modelo = modelo;
         this.marca = marca;
         this.cor = cor;
@@ -29,6 +29,4 @@ public class Carro {
     public String toString() {
         return "Carro{" + "modelo=" + modelo + ", marca=" + marca + ", cor=" + cor + ", ano=" + ano + ", qtdePortas=" + qtdePortas + ", placa=" + placa + '}';
     }
-    
-    
 }
