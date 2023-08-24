@@ -15,9 +15,9 @@ public class Carro {
     private int ano;
     private int qtdePortas;
     private String placa;
-    private MarchaEnum marcha;
+    private int marcha;
 
-    public Carro(String modelo, String marca, CorEnum cor, int ano, int qtdePortas, String placa, MarchaEnum marcha) {
+    public Carro(String modelo, String marca, CorEnum cor, int ano, int qtdePortas, String placa, int marcha) {
         this.modelo = modelo;
         this.marca = marca;
         this.cor = cor;
@@ -26,6 +26,17 @@ public class Carro {
         this.placa = placa;
         this.marcha = marcha;
     }
+
+    
+        public void trocarDeMarcha (MarchaEnum novaMarcha) {
+            int diferenca = novaMarcha.getNumeroMarcha() - this.marcha;
+            
+            if (diferenca == 1) {
+                this.marcha = novaMarcha.getNumeroMarcha();
+            } else {
+                System.out.println("Voce nao pode pular a marcha");
+            }
+        }
 
     @Override
     public String toString() {
