@@ -14,7 +14,7 @@ public class Curso {
     private CategoriaEnum categoria;
     private String duracao;
 
-    public Curso(String nome, String descricao, CategoriaEnum categoria) {
+    public Curso(String nome, String descricao, CategoriaEnum categoria, String duracao) {
         this.nome = nome;
         this.descricao = descricao;
         this.categoria = categoria;
@@ -25,6 +25,8 @@ public class Curso {
     public String toString() {
         return "Curso{" + "nome=" + nome + ", descricao=" + descricao + ", categoria=" + categoria + ", duracao=" + duracao + '}';
     }
+
+   
 
     
     
