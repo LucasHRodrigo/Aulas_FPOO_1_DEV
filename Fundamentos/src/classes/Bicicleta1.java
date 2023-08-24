@@ -9,6 +9,7 @@ package classes;
  * @author Aluno
  */
 public class Bicicleta1 {
+
     //atributos (as características da bicicleta).
     private int qtdeRodas;
     private boolean temMarchas;
@@ -22,7 +23,7 @@ public class Bicicleta1 {
     //construtor sem argumentos
     public Bicicleta1() {
     }
-    
+
     //construtor com argumentos
     public Bicicleta1(int qtdeRodas, boolean temMarchas, int qtdeMarchas, String modelo, boolean temFreio, String cor) {
         this.qtdeRodas = qtdeRodas;
@@ -34,17 +35,18 @@ public class Bicicleta1 {
         this.situacao = "Parada";
         this.velocidade = 0;
     }
-    
+
     //ações da bicicleta
     public void andar(int velocidade) {
         this.situacao = "Andando";
         this.velocidade = velocidade;
     }
-    
+
     public void freiar() {
         this.situacao = "Freiando";
         this.velocidade -= 1;
     }
+
     public boolean verificarFreio() {
         return this.temFreio;
     }
@@ -54,6 +56,4 @@ public class Bicicleta1 {
         return "Bicicleta1{" + "qtdeRodas=" + qtdeRodas + ", temMarchas=" + temMarchas + ", qtdeMarchas=" + qtdeMarchas + ", modelo=" + modelo + ", temFreio=" + temFreio + ", cor=" + cor + ", situacao=" + situacao + ", velocidade=" + velocidade + '}';
     }
 
-   
-    
 }

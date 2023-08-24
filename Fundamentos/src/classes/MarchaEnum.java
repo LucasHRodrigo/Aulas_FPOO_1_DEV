@@ -28,15 +28,14 @@ public enum MarchaEnum {
     public String getMarcha() {
         return marcha;
     }
-    
+
     public int getNumeroMarcha() {
         return numeroMarcha;
     }
+
     @Override
     public String toString() {
         return "MarchaEnum{" + "marcha=" + marcha + '}';
     }
-
-   
 
 }

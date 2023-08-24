@@ -9,6 +9,7 @@ package classes;
  * @author Aluno
  */
 public class Carro {
+
     private String modelo;
     private String marca;
     private CorEnum cor;
@@ -27,23 +28,19 @@ public class Carro {
         this.marcha = marcha;
     }
 
-    
-        public void trocarDeMarcha (MarchaEnum novaMarcha) {
-            int diferenca = novaMarcha.getNumeroMarcha() - this.marcha;
-            
-            if (diferenca == 1) {
-                this.marcha = novaMarcha.getNumeroMarcha();
-            } else {
-                System.out.println("Voce nao pode pular a marcha");
-            }
+    public void trocarDeMarcha(MarchaEnum novaMarcha) {
+        int diferenca = novaMarcha.getNumeroMarcha() - this.marcha;
+
+        if (diferenca == 1) {
+            this.marcha = novaMarcha.getNumeroMarcha();
+        } else {
+            System.out.println("Voce nao pode pular a marcha");
         }
+    }
 
     @Override
     public String toString() {
         return "Carro{" + "modelo=" + modelo + ", marca=" + marca + ", cor=" + cor + ", ano=" + ano + ", qtdePortas=" + qtdePortas + ", placa=" + placa + ", marcha=" + marcha + '}';
     }
 
-   
-
-    
 }
