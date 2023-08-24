@@ -40,5 +40,7 @@ public class Imprimir {
         System.out.println(cursoDesenhoTecnico);
         System.out.println(cursoProgramacao);
         System.out.println(cursoSolda);
+        System.out.println(".....................................................................................................................................................................................................................................");
+    }
 
 }
