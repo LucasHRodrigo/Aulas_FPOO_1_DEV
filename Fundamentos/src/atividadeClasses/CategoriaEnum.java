@@ -9,7 +9,7 @@ package atividadeClasses;
  * @author Aluno
  */
 public enum CategoriaEnum {
-        PROGRAMACAO("Programacao"),
+        INFORMATICA("Informatica"),
         DESENHO("Desenho"),
         CULINARIA("Culinaria"),
         TECNICO("Tecnico"),;

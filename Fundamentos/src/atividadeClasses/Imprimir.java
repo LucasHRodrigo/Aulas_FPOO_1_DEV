@@ -16,13 +16,13 @@ public class Imprimir {
         Sala salaReuniao = new Sala(15, 15, 3, true, 2, false , true);
 
         Computador computadorJogos = new Computador(RAMEnum.TRINTA_E_DOIS_GB, ProcessadorEnum.Ryzen_7, 1024, "Windows", true, "700w");
-        Computador computadorEscritorio = new Computador(RAMEnum.DEZESSEIS_GB, ProcessadorEnum.Ryzen_3, 512, "Windows", false, "500w");
+        Computador computadorEscritorio = new Computador(RAMEnum.OITO_GB, ProcessadorEnum.Ryzen_3, 512, "Windows", false, "500w");
         Computador computadorJogos2 = new Computador(RAMEnum.DEZESSEIS_GB, ProcessadorEnum.I9, 1024, "Windows", true, "600w");
 
         
-        Curso cursoDesenhoTecnico = new Curso("Desenho Tecnico", "Curso de especializacao em Desenhos Tecnicos", CategoriaEnum.DESENHO, "35h");
-        Curso cursoProgramacao = new Curso("Programacao em C++", "Curso gratuito de C++, do nivel basico ao nivel avancado", CategoriaEnum.PROGRAMACAO, "60h");
-        Curso cursoSolda = new Curso("Tecnico em Solda", "Curso tecnico de Solda disponibilizado pelo SENAI", CategoriaEnum.TECNICO, "1200h");
+        Curso cursoDesenhoTecnico = new Curso("Desenho Tecnico", "Curso de especializacao em Desenhos Tecnicos", CategoriaEnum.DESENHO, "35h", true);
+        Curso cursoProgramacao = new Curso("Programacao em C++", "Curso gratuito de C++, do nivel basico ao nivel avancado", CategoriaEnum.INFORMATICA, "60h", false);
+        Curso cursoSolda = new Curso("Tecnico em Solda", "Curso tecnico de Solda disponibilizado pelo SENAI", CategoriaEnum.TECNICO, "1200h", true);
         
         System.out.println(".....................................................................................................................................................................................................................................");
         System.out.println(salaAula);
