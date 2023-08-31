@@ -31,7 +31,7 @@ public class RedeSocial implements ClassificacaoPost{
          
          System.out.println("..........................................................................................................................................................................................................");
          
-          Posts post3 = new Posts("VAGA DE EMPREGO no setor da Engenharia Civil. Salário: 7.000 (sujeito a negociações). Compartilhem.", SUPER_LEGAL, "19:51", 91, "Daniel Ramos");
+          Posts post3 = new Posts("VAGA DE EMPREGO no setor da Engenharia Civil. Salário: 7.000 (sujeito a negociações). Compartilhem.", SUPER_LEGAL, "19:51", 191, "Daniel Ramos");
          System.out.println(post3.usuario + "          " +  post3.horario);
          System.out.println(post3.legenda);
          System.out.println("");
@@ -39,7 +39,7 @@ public class RedeSocial implements ClassificacaoPost{
          
          System.out.println("..........................................................................................................................................................................................................");
          
-          Posts post4 = new Posts("Olha só quanto charme!! <3", SUPER_LEGAL, "14:55", 112, "Juliana Monique");
+          Posts post4 = new Posts("Olha só quanto charme!! <3", SUPER_LEGAL, "14:55", 412, "Juliana Monique");
          System.out.println(post4.usuario + "          " +  post4.horario);
          System.out.println(post4.legenda);
          System.out.println("");
