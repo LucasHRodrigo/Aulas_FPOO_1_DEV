@@ -22,4 +22,9 @@ public class Professor extends Pessoa {
         return super.toString() + "Professor{" + "dedicacaoExclusiva=" + dedicacaoExclusiva + '}';
     }
 
+    public boolean isDedicacaoExclusiva() {
+        return dedicacaoExclusiva;
+    }
+
+
 }

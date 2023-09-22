@@ -25,4 +25,13 @@ public class Aluno extends Pessoa {
     public String toString() {
         return super.toString() + "Aluno{" + "RM=" + RM + '}';
     }
+
+    public String getRM() {
+        return RM;
+    }
+
+    public void setRM(String RM) {
+        this.RM = RM;
+    }
+    
 }

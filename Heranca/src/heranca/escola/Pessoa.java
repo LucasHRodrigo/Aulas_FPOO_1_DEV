@@ -32,7 +32,7 @@ public class Pessoa implements ValidaPessoa {
 
     @Override
     public String toString() {
-        return "Pessoa{" + "nome=" + nome + ", email=" + email + ", idade=" + idade + " , telefone=" + telefone + '}';
+        return "{" + "nome=" + nome + ", email=" + email + ", idade=" + idade + " , telefone=" + telefone + '}';
     }
 
     @Override
@@ -52,5 +52,5 @@ public class Pessoa implements ValidaPessoa {
             return false;
         }
     }
-
+    
 }
